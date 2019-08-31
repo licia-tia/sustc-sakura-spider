@@ -1,10 +1,10 @@
 # sustc-sakura-spider
-## Requirements
-- os
-- random
-- datetime
-- requests
-- bs4
+## 开始之前
+你需要一些准备工作
+- 一个普通的 python 3 运行环境
+- requests bs4 lxml包，一般来说你可以使用以下命令安装。
+
+  `pip install requests bs4 lxml`
 ## Application
 
 - 爬取南科大教务系统的课程表信息并转存为ics文件。
